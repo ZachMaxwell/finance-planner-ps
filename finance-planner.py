@@ -1,14 +1,6 @@
 import openpyxl
 
-'''
-TO-DO:
-1. Figure out how to make the path variable work so I dont have to put this program in every yearly folder
-2. Add code that will force me to retry a character entry if I mess up (i.e. currently typing 's' instead of 'a' will just move to the next block of code)
-3. Figure out how to make it so that when I add an expense or a deposit, that value gets added in the very next available cell in that column
-4. Add a way to remove entries if they were an error (need to know the position of that entry first)
-'''
-
-path_to_sheet = r"C:\Users\zmax3\OneDrive\Documents\Finances\Monthly_Expenses_Income_2023"
+path_to_sheet = r" "
 working_sheet = input("Input the monthly sheet name:\n> ")
 absolute_path = path_to_sheet + "\\" + working_sheet
 
